@@ -40,14 +40,14 @@ async def ヒーラー3(ctx):
 
 
 @bot.event
-async def on_message(message):
-    if message.author.bot: # メッセージ送信者がBotだった場合は無視する
+async def on_message(ctx):
+    if ctx.author.bot: # メッセージ送信者がBotだった場合は無視する
         return
 
-    if message.channel.id != 866022441029206016: # チャンネルが違う場合は無視する
+    if ctx.channel.id != 866022441029206016: # チャンネルが違う場合は無視する
         return
 
-    await ctx.process_commands(message)
+    await ctx.send(ctx)
 
         
 bot.run(token)
