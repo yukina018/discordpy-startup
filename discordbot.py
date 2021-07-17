@@ -41,7 +41,7 @@ async def ヒーラー3(ctx):
 
 @bot.event
 async def on_message(message):
-    if message.channel.id = '866022441029206016':
+    if message.channel.id not in [865599145200320525, 865599145200320524]:
         return
 
     
