@@ -11,16 +11,6 @@ async def on_command_error(ctx, error):
     orig_error = getattr(error, "original", error)
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
     await ctx.send(error_msg)
-
-@bot.event
-async def on_message(ctx):
-    if ctx.author.bot: # メッセージ送信者がBotだった場合は無視する
-        return
-
-    if ctx.channel.id != 866022441029206016: # チャンネルが違う場合は無視する
-        return
-
-    await message.channel.send(ctx)
     
 
 @bot.command()
@@ -48,5 +38,15 @@ async def ヒーラー3(ctx):
     await ctx.send('https://drive.google.com/file/d/1CmqSft5-7YsCYWiTKP14xHi0qhHbnGUd/view?usp=sharing') 
  
 
+@bot.event
+async def on_message(ctx):
+    if ctx.author.bot: # メッセージ送信者がBotだった場合は無視する
+        return
+
+    if ctx.channel.id != 866022441029206016: # チャンネルが違う場合は無視する
+        return
+
+    await message.send(ctx)
+    
         
 bot.run(token)
