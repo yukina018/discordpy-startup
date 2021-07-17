@@ -14,7 +14,7 @@ async def on_command_error(ctx, error):
 
 @bot.event
 async def on_message(message):
-    if message.channel.id != '866022441029206016':
+    if message.channel.id = '866022441029206016':
         return
     
 
