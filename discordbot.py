@@ -41,7 +41,7 @@ async def ヒーラー3(ctx):
 
 @bot.event
 async def on_message(message):
-    if message.channel.name == 'テスト用:
+    if message.channel.id == 866022441029206016:
         return
 
 bot.run(token)
