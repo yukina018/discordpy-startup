@@ -47,7 +47,7 @@ async def on_message(ctx):
     if ctx.channel.id != 866022441029206016: # チャンネルが違う場合は無視する
         return
 
-    await ctx.send(ctx)
+    await ctx.channel.send(ctx)
 
         
 bot.run(token)
