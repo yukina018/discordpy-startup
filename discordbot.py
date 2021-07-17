@@ -12,7 +12,6 @@ async def on_command_error(ctx, error):
     error_msg = ''.join(traceback.TracebackException.from_exception(orig_error).format())
     await ctx.send(error_msg)
 
-    
 
 @bot.command()
 async def ping(ctx):
@@ -39,10 +38,10 @@ async def ヒーラー3(ctx):
     await ctx.send('https://drive.google.com/file/d/1CmqSft5-7YsCYWiTKP14xHi0qhHbnGUd/view?usp=sharing') 
  
 
+
 @bot.event
 async def on_message(message):
-    if message.channel.id = ('865599145200320525', '865599145200320524'):
+    if message.channel.name == 'テスト用:
         return
 
-    
 bot.run(token)
