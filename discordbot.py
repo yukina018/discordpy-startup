@@ -39,7 +39,7 @@ async def 画像(ctx):
     
 @bot.command()
 async def ヘルプ(ctx):
-    await ctx.send('コマンド一覧だよ！' bruh \n '・/ラスバレ' bruh \n '・/ツイッター' bruh \n '・/画像') 
+    await ctx.send('コマンド一覧だよ！ bruh \n ・/ラスバレ bruh \n ・/ツイッター bruh \n ・/画像') 
     
 @bot.command()
 async def ヒーラー(ctx):
