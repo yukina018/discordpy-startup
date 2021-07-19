@@ -38,6 +38,13 @@ async def 画像(ctx):
     await ctx.send('https://twitter.com/assaultlily_lb/status/1416774770331316224/photo/1') 
     
 @bot.command()
+async def ヘルプ(ctx):
+    await ctx.send('コマンド一覧だよ！') 
+    await ctx.send('・/ラスバレ') 
+    await ctx.send('・/ツイッター') 
+    await ctx.send('・/画像') 
+    
+@bot.command()
 async def ヒーラー(ctx):
     await ctx.send('https://drive.google.com/file/d/17X1a_HkkNUOycIylK0g6yQQa1jeHxJx2/view?usp=sharing') 
     
