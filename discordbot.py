@@ -27,7 +27,7 @@ async def チャーミィ(ctx):
     
 @bot.command()
 async def ラスバレ(ctx):
-    await ctx.send('https://assaultlily.bushimo.jp/') 
+    await ctx.send('https://assaultlily.bushimo.jp/' ) 
     
 @bot.command()
 async def ツイッター(ctx):
@@ -39,10 +39,7 @@ async def 画像(ctx):
     
 @bot.command()
 async def ヘルプ(ctx):
-    await ctx.send('コマンド一覧だよ！') 
-    await ctx.send('・/ラスバレ') 
-    await ctx.send('・/ツイッター') 
-    await ctx.send('・/画像') 
+    await ctx.send('コマンド一覧だよ！' bruh \n '・/ラスバレ' bruh \n '・/ツイッター' bruh \n '・/画像') 
     
 @bot.command()
 async def ヒーラー(ctx):
