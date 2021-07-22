@@ -41,7 +41,7 @@ async def 資料(ctx):
 
 @bot.command()
 async def 資料2(ctx):
-    await ctx.send('https://docs.google.com/spreadsheets/d/1FFhDMTinBL7HwlZNPV2jGh0uAS0Iq1SJ/edit#gid=527700679) 
+    await ctx.send('https://docs.google.com/spreadsheets/d/1FFhDMTinBL7HwlZNPV2jGh0uAS0Iq1SJ/edit#gid=527700679') 
     
     
 @bot.event
