@@ -39,6 +39,11 @@ async def 資料(ctx):
     await ctx.send('https://drive.google.com/file/d/19AwpXa0ys9sezbohgze8QD7QXWCYG8M0/view?usp=sharing') 
  
 
+@bot.command()
+async def 資料2(ctx):
+    await ctx.send('https://drive.google.com/file/d/1FFhDMTinBL7HwlZNPV2jGh0uAS0Iq1SJ/view?usp=sharing') 
+    
+    
 @bot.event
 async def on_message(ctx):
     if ctx.channel.id != 866022441029206016: # チャンネルが違う場合は無視する
