@@ -36,11 +36,6 @@ async def ヘルプ(ctx):
     
 @bot.command()
 async def 資料(ctx):
-    await ctx.send('https://drive.google.com/spreadsheets/d/1FFhDMTinBL7HwlZNPV2jGh0uAS0Iq1SJ') 
- 
-
-@bot.command()
-async def 資料2(ctx):
     await ctx.send('https://drive.google.com/file/d/1FFhDMTinBL7HwlZNPV2jGh0uAS0Iq1SJ/view?usp=sharing') 
     
     
