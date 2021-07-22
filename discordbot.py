@@ -14,14 +14,6 @@ async def on_command_error(ctx, error):
     
 
 @bot.command()
-async def ping(ctx):
-    await ctx.send('pong')
-
-@bot.command()
-async def neko(ctx):
-    await ctx.send('にゃん') 
-
-@bot.command()
 async def チャーミィ(ctx):
     await ctx.send('はじめまして！ボクCHARMの妖精チャーミィ☆') 
     
@@ -39,19 +31,12 @@ async def 画像(ctx):
     
 @bot.command()
 async def ヘルプ(ctx):
-    await ctx.send('コマンド一覧だよ！\n/ラスバレ\n/ツイッター\n/画像') 
-    
-@bot.command()
-async def ヒーラー(ctx):
-    await ctx.send('https://drive.google.com/file/d/17X1a_HkkNUOycIylK0g6yQQa1jeHxJx2/view?usp=sharing') 
-    
-@bot.command()
-async def ヒーラー2(ctx):
-    await ctx.send('https://drive.google.com/file/d/1tqyVpv-fq072y5cEr0FboIsV9P3XmrnQ/view?usp=sharing') 
+    await ctx.send('コマンド一覧だよ！\n/ラスバレ\n/ツイッター\n/画像\n/資料') 
+ 
     
 @bot.command()
 async def 資料(ctx):
-    await ctx.send('https://drive.google.com/file/d/1CmqSft5-7YsCYWiTKP14xHi0qhHbnGUd/view?usp=sharing') 
+    await ctx.send('https://drive.google.com/file/d/12pM4kxFktbSMEXeQlWpvRinRWUek8Xpj/view?usp=sharing') 
  
 
 @bot.event
