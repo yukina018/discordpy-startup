@@ -36,7 +36,7 @@ async def ヘルプ(ctx):
     
 @bot.command()
 async def 資料(ctx):
-    await ctx.send('https://drive.google.com/file/d/12pM4kxFktbSMEXeQlWpvRinRWUek8Xpj/view?usp=sharing') 
+    await ctx.send('https://drive.google.com/file/d/1Dh2srpbcFP9UIze1JpQLtqQuq1DQTJ-n/view?usp=sharing') 
  
 
 @bot.event
