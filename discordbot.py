@@ -49,11 +49,11 @@ async def on_message(ctx):
     
 
  
-webhook_url = 'https://discord.com/api/webhooks/https://twitter.com/assaultlily_lb'
-#webhook_url = 'https://discordapp.com/api/webhooks/〇〇〇〇〇〇〇〇〇〇〇〇〇〇'
+webhook_url = 'https://discord.com/api/webhooks/874273799418310657/SFQ9K9zswagU_xCSXmj9fLS38yC35_XcTFl_fnBvEJljWPalAkVO_Wjx92Imxon7Q20e'
+#webhook_url = 'https://discordapp.com/api/webhooks/twitter.com/assaultlily_lb'
  
 main_content = {
-  "content": "ここにメッセージ"
+  "content": https:twitter.com/assaultlily_lb
 }
 requests.post(webhook_url,main_content)
     
