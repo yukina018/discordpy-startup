@@ -1,7 +1,6 @@
 from discord.ext import commands
 import os
 import traceback
-import requests
 
 bot = commands.Bot(command_prefix='/')
 token = os.environ['DISCORD_BOT_TOKEN']
@@ -46,10 +45,5 @@ async def on_message(ctx):
         return
 
     await bot.process_commands(ctx)
-    
-
- 
-
-    
     
 bot.run(token)
