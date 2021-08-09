@@ -49,16 +49,13 @@ async def on_message(ctx):
     
 
  
-webhook_url = 'https://discord.com/api/webhooks/874273799418310657/SFQ9K9zswagU_xCSXmj9fLS38yC35_XcTFl_fnBvEJljWPalAkVO_Wjx92Imxon7Q20e'
- 
+webhook_url = 'https://discord.com/api/webhooks/https://twitter.com/assaultlily_lb'
+#webhook_url = 'https://discordapp.com/api/webhooks/〇〇〇〇〇〇〇〇〇〇〇〇〇〇'
  
 main_content = {
-  "username": "公式情報BOT",
-  "avatar_url": "https://www.google.co.jp/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png",
-  "content": "コンテンツの中身:grinning: :grimacing: "
+  "content": "ここにメッセージ"
 }
- 
-requests.post(webhook_url, main_content)
+requests.post(webhook_url,main_content)
     
     
 bot.run(token)
